@@ -1,4 +1,3 @@
-//todo array bor arrayni ichida obj bor  obj ni xammasiga surname qo'shish kerak 
 
 // var student = [
 //     {
@@ -22,13 +21,8 @@
 //     student[1].surname = `Aliev`
 //     student[2].surname = `Xoliqov`
 //     console.log(value);
-})
+//})
 
-//todo (if,for, ?, function, array and object dan foydalanib)
-//todo array bor uni ichida obj bor id, name, age. shundan 10ta bor. find(argument) degan funksyani ichida bo'ladi argumentni o'rniga sortage deb yozadigan bo'lsak age ni so'rt qilib berishi kerak.
-//todo 1) age sort kamayish tartibiga qarab
-//todo 2) sort name
-//todo 3) sort id 
 
 
 var list = [
