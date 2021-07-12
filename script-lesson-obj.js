@@ -17,6 +17,7 @@
 //     }
 // ];
 // student.map((value, index) => {
+//     student.surname = `Alimov`  ==> Xammasi uchun ishlaydi!
 //     student[0].surname = `Alimov`
 //     student[1].surname = `Aliev`
 //     student[2].surname = `Xoliqov`
@@ -80,6 +81,10 @@ var list = [
 // list.sort((a,b)=>b.id-a.id)
 // console.log(list);
 
+
+
+list.sort((a,b)=>a.name.toLowerCase().localCompare(b.name.toLowerCase()))
+console.log(list);
 
 
 
